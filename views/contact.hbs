@@ -12,32 +12,27 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm">
-
+                        <form id="contactForm" action = "/email" method="POST">
                             <!-- Name input -->
                             <div class="mb-3">
-                            <label class="form-label" for="name">Name</label>
-                            <input class="form-control" id="name" type="text" placeholder="Name" />
+                            <label class="form-label" for="name">Name:</label>
+                            <input class="form-control" type="text" id="name" name="name" required>
                             </div>
-
-                            <!-- Email address input -->
+<!-- Email -->
                             <div class="mb-3">
-                            <label class="form-label" for="emailAddress">Email Address</label>
-                            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+                            <label class="form-label" for="email">Email:</label>
+                            <input class="form-control" type="email" id="email" name="email" required>
                             </div>
-
-                            <!-- Message input -->
+<!-- Message input -->
                             <div class="mb-3">
-                            <label class="form-label" for="message">Message</label>
-                            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+                            <label class="form-label" for="message">Message:</label>
+                            <textarea class="form-control" id="message" name="message" required></textarea>
                             </div>
-
-                            <!-- Form submit button -->
                             <div class="d-grid">
-                            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                            <button class ="btn btn-primary btn-lg" type="submit">Submit</button>
                             </div>
-
                         </form>
+
                     </div>
                 </div>
             </div>

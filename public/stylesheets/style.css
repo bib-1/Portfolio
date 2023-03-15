@@ -77,7 +77,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -4908,7 +4908,8 @@ textarea.form-control-lg {
 .alert {
   position: relative;
   padding: 1rem 1rem;
-  margin-bottom: 1rem;
+  margin-top: 140px;
+  margin-bottom: 50px;
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;
 }
